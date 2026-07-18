@@ -103,6 +103,7 @@ body {
 }
 .nav-link:hover {
     color: var(--color-accent);
+    transition: 0.3s;
 }
 .nav-link:hover::after {
     transform-origin: left;
