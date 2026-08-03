@@ -11,25 +11,27 @@
     </head>
     <body>
         <div class="body__wrapper">
-            <div class="page">
-                <div class="page-text">
-                    <p class="toggle">&#9776;</p>
-                    <nav class="page-text__nav">
+            <div class="home">
+                <div class="home__aside">
+                    <p class="home__toggle">&#9776;</p>
+                    <nav class="nav">
                         <ul>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link">Обо мне</a>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">Обо мне</a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#portfolio" class="nav-link">Работы</a>
+                            <li class="nav__item">
+                                <a href="#portfolio" class="nav__link"
+                                    >Работы</a
+                                >
                             </li>
-                            <li class="nav-item">
-                                <a href="#contacts" class="nav-link"
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link"
                                     >Контакты</a
                                 >
                             </li>
                         </ul>
                     </nav>
-                    <div class="info page-text__info">
+                    <div class="info home__info">
                         Создаю
                         <span class="accent"
                             >аккуратные адаптивные интерфейсы</span
@@ -38,12 +40,12 @@
                         разработки.
                         <!-- <button class="button">Связаться со мной</button> -->
                     </div>
-                    <p class="page-text__name">
+                    <p class="home__name">
                         Иван <br />
                         Припоров
                     </p>
                 </div>
-                <div class="page-block">
+                <div class="home__bside">
                     <img
                         class="big-img"
                         src="src/img/cat.png"
@@ -51,9 +53,9 @@
                     />
                 </div>
             </div>
-            <div class="page page--float" id="about">
-                <div class="columns">
-                    <p class="article columns__article">Навыки</p>
+            <div class="page" id="about">
+                <div class="page__column">
+                    <p class="article">Навыки</p>
                     <ul class="stack">
                         <li class="stack__item">HTML (HTML5)</li>
                         <li class="stack__item">CSS (CSS3), SASS (SCSS)</li>
@@ -66,15 +68,15 @@
                         <li class="stack__item">Git</li>
                     </ul>
                 </div>
-                <div class="page__about">
-                    <div class="block-background">
-                        <span class="about-article article--mobile"
+                <div class="page__info">
+                    <div class="block">
+                        <span class="block__article"
                             >Я начинающий <br />
                             <span class="accent">front-end разработчик</span
                             ><br />
                             и студент.</span
                         >
-                        <p class="page__text-about">
+                        <p class="block__text">
                             Сейчас я целенаправленно развиваю навыки в HTML,
                             CSS, JavaScript и React, чтобы уверенно собирать
                             современные интерфейсы. Мне важно делать вёрстку,
@@ -93,42 +95,42 @@
 
             <footer class="footer" id="contacts">
                 <div class="footer__info">
-                    <p class="footer__article">
+                    <p class="footer__text">
                         Я открыт к<span class="accent">
                             новым возможностям <br />и интересным задачам</span
                         >
                         <br />
                         в front-end-разработке.
                     </p>
-                    <p class="footer__text">
+                    <p>
                         Связаться со мной можно в любое удобное время по
                         контактам справа.
                     </p>
                 </div>
                 <div class="footer__contacts">
-                    <ul class="contact-list">
+                    <ul class="contacts-list">
                         <a href="https://github.com/ewanpriporov">
-                            <li class="contact-item">
+                            <li class="contacts-list__item">
                                 <img
-                                    class="icon"
+                                    class="contacts-list__icon"
                                     src="src/img/icons/github.png"
                                     alt="GitHub"
                                 /></li
                         ></a>
                         <a href="https://t.me/ewan_qw">
-                            <li class="contact-item">
+                            <li class="contacts-list__item">
                                 <img
-                                    class="icon"
+                                    class="contacts-list__icon"
                                     src="src/img/icons/telegram.png"
                                     alt="Tg"
                                 /></li
                         ></a>
                         <a href="mailto:priporov.is@mail.ru"
-                            ><li class="contact-item">
+                            ><li class="contacts-list__item">
                                 <img
                                     src="src/img/icons/mail.png"
                                     alt="Mail"
-                                    class="icon"
+                                    class="contacts-list__icon"
                                 /></li
                         ></a>
                     </ul>
